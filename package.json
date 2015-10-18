@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "gulp-watch": "^4.3.5"
-  },Mo
+  },
   "scripts": {},
   "engines": {
     "node": ">=4.1"
