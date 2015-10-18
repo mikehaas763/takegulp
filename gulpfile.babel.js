@@ -7,8 +7,9 @@ import TaskName from './TaskName.js';
 var config = {
     buildOutputLocation: 'out',
     nodeModulesLocation: 'node_modules',
+    tsconfigLocation: "tsconfig.json",
     watchTree: ['App/**/*', 'ClientRelations/**/*', 'Adapters/**/*', 'BamBam/**/*', 'index.html', 'loaderConfig.js'],
-    sourceTree: ['GulpEvent.js', 'ClientRelations/**/*', 'Adapters/**/*', 'BamBam/**/*'],
+    sourceTree: ['GulpEvent.ts', 'ClientRelations/**/*', 'Adapters/**/*', 'BamBam/**/*'],
     browserSyncConfig: {
         open: false,
         server: {
