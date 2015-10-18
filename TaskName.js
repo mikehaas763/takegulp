@@ -1,4 +1,4 @@
-export default {
+module.exports = {
     Default: 'default',
     Build: 'build',
     Clean: 'clean',

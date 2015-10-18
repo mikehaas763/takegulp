@@ -1,6 +1,6 @@
-import watch from 'gulp-watch';
-import browserSync from 'browser-sync';
-import TaskName from '../TaskName.js';
+var watch = require('gulp-watch');
+var browserSync = require('browser-sync');
+var TaskName = require('../TaskName.js');
 
 const browserSyncServer = browserSync.create();
 

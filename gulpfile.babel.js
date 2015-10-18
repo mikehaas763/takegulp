@@ -9,7 +9,7 @@ var config = {
     nodeModulesLocation: 'node_modules',
     tsconfigLocation: "tsconfig.json",
     watchTree: ['App/**/*', 'ClientRelations/**/*', 'Adapters/**/*', 'BamBam/**/*', 'index.html', 'loaderConfig.js'],
-    sourceTree: ['GulpEvent.ts', 'ClientRelations/**/*', 'Adapters/**/*', 'BamBam/**/*'],
+    sourceTree: ['tasks/**/*', 'GulpEvent.js', 'TaskName.js'],
     browserSyncConfig: {
         open: false,
         server: {

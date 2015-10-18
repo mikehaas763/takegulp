@@ -1,6 +1,7 @@
-import del from 'del';
+var del = require('del');
 
-export default function cleanFactory(config) {
+module.exports = cleanFactory;
+function cleanFactory(config) {
     return () => {
         return del(config.buildOutputLocation);
     };
