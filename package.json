@@ -1,6 +1,6 @@
 {
   "name": "takegulp",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "devDependencies": {
     "browser-sync": "^2.9.11",
     "del": "^2.0.2",
