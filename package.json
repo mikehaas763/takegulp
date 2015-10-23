@@ -2,7 +2,12 @@
   "name": "takegulp",
   "version": "0.5.0",
   "devDependencies": {
-    "gulp": "^3.9.0"
+    "gulp": "^3.9.0",
+    "lazypipe": "^1.0.1",
+    "nconf": "^0.8.2",
+    "path": "^0.12.7",
+    "stream-combiner2": "^1.1.1",
+    "vinyl-paths": "^2.0.0"
   },
   "dependencies": {
     "browser-sync": "^2.9.11",
@@ -10,7 +15,8 @@
     "gulp-babel": "^5.3.0",
     "gulp-filter": "^3.0.1",
     "gulp-typescript": "^2.9.2",
-    "gulp-watch": "^4.3.5"
+    "gulp-watch": "^4.3.5",
+    "minimist": "^1.2.0"
   },
   "scripts": {},
   "engines": {
